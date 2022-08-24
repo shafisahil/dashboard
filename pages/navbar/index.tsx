@@ -27,7 +27,7 @@ return(
                 <BsChevronCompactDown/>
                </div>
                <div className='flex space-x-3 items-center'>
-                <h2>EN</h2>
+                <h2>ENG</h2>
                 <BsChevronCompactDown/>
                </div>
                

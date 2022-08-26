@@ -9,8 +9,11 @@ const AppLayout :FC<IProps> = ({children}) => {
   return (
     <div>
       <Navbar />
-      <main className='mt-80 ml-80 z-10'>fdsfdsfdsfdfsfds{children}</main>
+      <div className='flex'>
       <Sidebar/>
+      <main className=''>fdsfdsfdsfdfsfds{children}</main>
+      </div>
+      
     </div>
   )
 }

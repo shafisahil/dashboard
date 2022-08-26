@@ -4,7 +4,7 @@ import Link  from 'next/link'
 
 const data=[
     {
-        icon:<RiRadioLine/> ,name:"Online Marketing Dashboard"
+        icon:<RiRadioLine/> ,name:"Online Marketing Dashboard" ,route:'/he'
     },
     {
         icon:<RiRadioLine/> ,name:"Online Marketing Dashboard"
@@ -22,7 +22,7 @@ const data=[
         icon:<RiRadioLine/> ,name:"Online Marketing Dashboard"
     },
     {
-        icon:<RiRadioLine/> ,name:"Online Marketing Dashboard", icone:<GrFormNext />
+        icon:<RiRadioLine/> ,name:"Online Marketing Dashboard", icone:<GrFormNext onClick={()=>alert("hell")} />
     },
     {
         icon:<RiRadioLine/> ,name:"Online Marketing Dashboard"
@@ -77,8 +77,8 @@ export default function Sidebar(){
     <hr className='text-white my-4' />
     <div className='flex space-x-5 p-2 hover:bg-sky-400 hover:border-red-400 hover:border-l-4 items-center'>
     <RiRadioLine/>
-    <Link href="/Pages">
-    <h2>LOGOUT{console.log('hell')}</h2></Link>
+    <Link href="/SigninPage">
+    <h2>LOGOUT</h2></Link>
     </div>
     <hr className='text-white my-4' />
     <div className='flex space-x-5 p-2 hover:bg-sky-400 hover:border-red-400 hover:border-l-4 items-center'>

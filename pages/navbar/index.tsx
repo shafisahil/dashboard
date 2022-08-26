@@ -6,13 +6,13 @@ import {RiRadioLine} from 'react-icons/ri'
 export const Navbar =()=>{
 return(
     <>
-    <div className=" fixed w-screen bg-sky-400 p-2 flex justify-between items-center font-bold">
-        <div className=' flex space-x-4 items-center text-3xl'>
+    <div className=" fixed w-screen bg-sky-400 p-1  flex justify-between items-center font-bold rounded">
+        <div className=' flex space-x-4 items-center text-2xl'>
         <BsReverseLayoutTextSidebarReverse/>
         <h2>AppLook</h2>
         </div>
-        <div className='flex space-x-5 items-center pr-5'>
-                <input type="search" placeholder='Search' className='p-2 rounded-full'/>
+        <div className='flex space-x-5 items-center pr-5 '>
+                <input type="search" placeholder='Search' className='p-1 pl-4 rounded-full font-normal text-sm'/>
                 <IoIosNotificationsOutline className='text-3xl'/>
                 <RiRadioLine className='text-3xl'/>
                 <div className='flex items-center space-x-2'>

@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
-import { Navbar } from '../../pages/navbar'
-import Sidebar from '../../pages/sidebar'
+import { Navbar } from '../navbar';
+import Sidebar from '../sidebar';
+
 interface IProps {
     children?: React.ReactNode;
 }

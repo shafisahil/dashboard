@@ -1,13 +1,13 @@
 import {BsReverseLayoutTextSidebarReverse,BsChevronCompactDown} from 'react-icons/bs'
 import {IoIosNotificationsOutline} from 'react-icons/io'
 import Image from 'next/image'
-import img from '../../public/me.jpg'
+import img from '../../../public/me.jpg'
 import {RiRadioLine} from 'react-icons/ri'
 export const Navbar =()=>{
 return(
     <>
-    <div className=" fixed w-screen bg-sky-400 p-1  flex justify-between items-center font-bold rounded">
-        <div className=' flex space-x-4 items-center text-2xl'>
+    <div className=" fixed w-screen bg-[#232329] p-1 text-gray-300 flex justify-between items-center font-bold rounded">
+        <div className=' flex space-x-4 items-center text-2xl text-white'>
         <BsReverseLayoutTextSidebarReverse/>
         <h2>AppLook</h2>
         </div>

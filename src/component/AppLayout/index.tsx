@@ -8,7 +8,7 @@ interface IProps {
 
 const AppLayout :FC<IProps> = ({children}) => {
   return (
-    <div>
+    <div className=''>
       <Navbar />
       <div className='flex'>
       <Sidebar/>

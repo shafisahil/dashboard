@@ -1,6 +1,7 @@
 import { RiRadioLine } from 'react-icons/ri'
 import { GrFormNext } from 'react-icons/gr'
 import Link  from 'next/link'
+import { useState } from 'react'
 
 const data=[
     {
@@ -30,8 +31,9 @@ const data=[
 ]
 
 export default function Sidebar(){
+    const [isopen , setIsopen] = useState(true)
     return(<>
-    <div className='w-72 bg-black text-white h-screen overflow-y-auto pt-16'>
+    <div className='w-72 bg-[#232329] text-white h-screen overflow-y-auto  fixed mt-[42px]'>
     <div>
        {
         data.map((e:any)=>{
